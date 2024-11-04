@@ -1,0 +1,67 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+body{
+    background-image: url(assets/Duetos_Luan_Santana.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formulario{
+    height: 300px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 170px;
+    left: 720px;
+    border-radius: 7px;
+    border: solid #fff;
+}
+.formulario form input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    color: #000;
+}
+#vip{
+    width: 300px;
+    position: relative;
+    left: 10px;
+    color: #000;
+}
+.formulario h1{
+    color: #fff;
+}
+p{
+    color: #fff;
+    padding: 10px 5px 5px 5px;
+}
+.enviar{
+    width: 300px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: #000;
+    border: transparent 5px;
+
+}
+option{
+    color: #000;
+}
+
+.formulario form input:hover, section:hover{
+    background-color: rgb(173, 173, 173);
+}
+.formulario form button:hover{
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
