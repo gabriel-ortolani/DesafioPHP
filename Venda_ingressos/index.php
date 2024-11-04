@@ -62,8 +62,7 @@
             } 
             }
             if($idade > 18){
-                echo "<p>Nome: $nome </p>";
-                echo "<p>Idade: $idade </p>";
+                echo "<p>Bem-vindo $nome </p>";
                 echo "<p>Tipo de ingresso: $ingresso<br> Preço: R$" . number_format($preco, 2,',');
             }
             else{
